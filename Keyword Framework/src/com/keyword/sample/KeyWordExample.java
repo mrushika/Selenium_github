@@ -79,6 +79,8 @@ public class KeyWordExample {
 
 	public void click_On_Link(String locatorType, String value) throws InterruptedException {
 		try {
+			
+			//Throws exception
 			By locator;
 			locator = locatorValue(locatorType, value);
 			WebElement element = driver.findElement(locator);
